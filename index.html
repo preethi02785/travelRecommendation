@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="./assets/css/nav-styles.css">
+    <link rel="stylesheet" href="./assets/css/social-media.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/search_result.css">
+</head>
+<body>
+    <div id="nav-container">
+        <header id="nav-header">
+            <span id="header-logo"> <img src="./assets/images/planelogo.png" width="50" height="30"> </span>
+            <span id="header-name"><a href="#">TravelBloom</a></span>
+        </header>
+        <nav id="nav-nav">
+            <div id="nav-anchors">
+                <span class="nav-a"> <a href="#">Home</a> </span>
+                <span class="nav-a"> <a href="./about.html">About Us</a> </span>
+                <span class="nav-a"> <a href="./contact.html">Contact Us</a> </span>
+            </div>
+        </nav>
+        <div id="nav-search">
+            <span id="search-space"> <input id="searchbarInput" placeholder="Enter a destination or keyword"> </span>
+            <span class="search-button-span"> <button id="searchbarSearchButton" class="search-button">Search</button> </span>
+            <span class="search-button-span"> <button id="searchbarClearButton" class="search-button" >Clear</button> </span>
+        </div>
+    </div>
+    <div id="main-container">
+        <div id="home-container">
+            <span class="home-content"><h1>EXPLORE DREAM DESTINATION</h1></span>
+            <span class="home-content"><p>Travel through the world and see how the creation was started. As the first creation was started, it will be repeated again. And you will be accountable for your deeds.</p></span>
+            <span class="home-content"><button>BOOK NOW</button></span>
+        </div>
+        <div id="social-links-container">
+            <span class="social-link"><a href="https://www.facebook.com/"><img src="./assets/images/facebook.png" width="50px" height="50px"></a></span>
+            <span class="social-link"><a href="https://www.linkedin.com/"><img src="./assets/images/linkedin.png" width="50px" height="50px"></a></span>
+            <span class="social-link"><a href="https://www.youtube.com/"><img src="./assets/images/youtube.png" width="50px" height="50px"></a></span>
+            <span class="social-link"><a href="https://www.x.com/"><img src="./assets/images/twitter.png" width="50px" height="50px"></a></span>
+        </div>
+        <div id="results">
+            <div id="no-result" style="visibility: hidden;">
+                <p>No results found.</p>
+            </div>
+
+            <div id="keyword-message" style="visibility: hidden;">
+                <p>Please enter a search keyword.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/main_script.js" type="text/javascript"></script>
+</body>
+</html>
